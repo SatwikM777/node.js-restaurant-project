@@ -1,0 +1,6 @@
+1.<%- include('path of the file ',{}) here we can add an object for printing the dynamic content as per the requirements 
+2.DynaMIC ROUTES ARE USED TO DISPLAY A PAGE WHICH CAN HAVE NUMEROUS DATA BUT IT WILL DISPLAY ONE PAGE WITH A UNIQUE DATA SUCH AS A PRODUCT INFO IN AMAZON OR A RESTAURANT INFO IN A PAGE BY DEFING ONLY A SINGLA ROUTE FOR THAT PAGE RATHE THAN CREATING MULTIPLE PAGES
+3.npm install uuid is for installinbg third party package which creates unique ids for our program as per the need
+4.app.use(express.static('public'));//for linking the js and the css files to the server whic can be publically available
+  app.use(express.urlencoded({extended: false}));
+this is the middleware created by the user 
